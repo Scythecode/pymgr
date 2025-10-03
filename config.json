@@ -1,0 +1,15 @@
+{
+    "repositories": "repositories.conf",
+    "manager_name": "pymgr",
+    "prompt": "I-is this okay d-daddy?",
+    "input": [
+        {
+            "name": "y",
+            "yes": true
+        },
+        {
+            "name": "n",
+            "yes": false
+        }
+    ]
+}
