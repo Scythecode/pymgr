@@ -38,4 +38,5 @@ Alternatively, the repositories key can be a string referencing a path to a .con
 ["https://archlinux.org/packages/?sort=&repo=Extra"]
 nickname = arch/extra
 priority = 512
-```<br/>
+```
+<br/>
