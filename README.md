@@ -30,11 +30,13 @@ You mainly edit with the config.json file. Like this:<br/>
         }
     ]
 }
-```<br/>
+```
+<br/>
 Note that comments aren't allowed in json, there are only added for for showcasing. Please remove them<br/>
 Alternatively, the repositories key can be a string referencing a path to a .conf file which looks like this:<br/>
 ```ini
 ["https://archlinux.org/packages/?sort=&repo=Extra"]
 nickname = arch/extra
 priority = 512
-```<br/>
+```
+<br/>
