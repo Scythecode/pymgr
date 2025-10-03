@@ -2,6 +2,10 @@ import configparser,json,requests,re,os,time
 import urllib.parse as urllib
 from sys import argv
 
+
+# this works and im okay with that
+open('scraped.txt', 'w')
+
 scraped = open("scraped.txt","r+")
 confparser = configparser.ConfigParser()
 my_config = None
@@ -36,6 +40,9 @@ def update_repos(m=0):
     def scrape_repo(repolink,repo,scrape_output):
         number = 0
         response = requests.get(repolink.strip("\""))
+
+        # this whole block is odd, don't mind it
+        status_code = response.status_code
         if response.status_code != 200:
             print(f"PYMGR: Repository {repolink.strip()} is too busy dominating pymgr in a gay mating press and therefore cannot be scraped ({status_code})")
             return
