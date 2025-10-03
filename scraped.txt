@@ -1,0 +1,5 @@
+https://archlinux.org/packages/extra/x86_64/adguardhome/
+https://archlinux.org/packages/extra/any/adw-gtk-theme/
+https://archlinux.org/packages/extra/x86_64/afl++/
+https://archlinux.org/packages/extra/x86_64/agda/
+https://archlinux.org/packages/extra/any/amavisd-new/
